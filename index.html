@@ -15,27 +15,42 @@
 <body>
 
   <!-- Header -->
-  <header class="bg-white text-dark shadow-sm">
-    <div class="container py-3">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h3 class="mb-0 d-flex align-items-center">
-            <i class="bi bi-laptop-fill text-dark me-3" style="transition: color 0.3s;"
-              onmouseover="this.style.color='#0d6efd'" onmouseout="this.style.color=''"></i>
-            <a href="#home" class="text-decoration-none text-dark link-primary d-flex align-items-center gap-2">
-              SHALBIN M S
-            </a>
-          </h3>
-        </div>
-        <div class="col-md-6 text-md-end mt-2 mt-md-0">
-          <a href="#home" class="me-3 text-decoration-none text-dark link-primary">Home</a>
-          <a href="#about" class="me-3 text-decoration-none text-dark link-primary">About</a>
-          <a href="#projects" class="me-3 text-decoration-none text-dark link-primary">Projects</a>
-          <a href="#contact" class="text-decoration-none text-dark link-primary">Contact</a>
+  <header class="sticky-top bg-white shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
+          <span>SHALBIN M S</span>
+          <i class="bi bi-laptop-fill text-dark" style="transition: color 0.3s;"
+            onmouseover="this.style.color='#0d6efd'" onmouseout="this.style.color=''"></i>
+        </a>
+
+        <!-- Hamburger button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible Nav Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
+
 
 
   <!-- Introduction Section -->
