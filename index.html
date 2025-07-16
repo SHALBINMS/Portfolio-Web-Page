@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/jpg" href="shalMpower.jpg">
+  <title>Shalbin's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="bg-white text-dark shadow-sm">
+    <div class="container py-3">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h3 class="mb-0 d-flex align-items-center">
+            <i class="bi bi-laptop-fill text-dark me-3" style="transition: color 0.3s;"
+              onmouseover="this.style.color='#0d6efd'" onmouseout="this.style.color=''"></i>
+            <a href="#home" class="text-decoration-none text-dark link-primary d-flex align-items-center gap-2">
+              SHALBIN M S
+            </a>
+          </h3>
+        </div>
+        <div class="col-md-6 text-md-end mt-2 mt-md-0">
+          <a href="#home" class="me-3 text-decoration-none text-dark link-primary">Home</a>
+          <a href="#about" class="me-3 text-decoration-none text-dark link-primary">About</a>
+          <a href="#projects" class="me-3 text-decoration-none text-dark link-primary">Projects</a>
+          <a href="#contact" class="text-decoration-none text-dark link-primary">Contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Introduction Section -->
+  <section id="home"
+    class="bg-dark text-white min-vh-75 d-flex flex-column justify-content-center align-items-center text-center pt-5 pb-5">
+    <div class="container">
+      <h1 class="display-1">
+        <span id="typed-name" class="text-primary"></span>
+      </h1>
+      <p class="lead">
+        <span id="typed-role" class="text-warning"></span>
+      </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light text-dark py-5 pt-5 mt-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Me</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p>
+            I'm <strong>Shalbin M S</strong> from <strong>N. Paravur, Ernakulam, Kerala</strong>. I'm currently pursuing
+            my B.Tech in <strong>Computer Science and Design</strong> at <strong>FISAT, Angamaly</strong>. I’m
+            passionate about building full-stack applications and solving real-world problems with code.
+          </p>
+          <p>
+            I love experimenting with modern web technologies and continuously improving my skills.
+          </p>
+          <h5 class="mt-4">Hobbies</h5>
+          <ul>
+            <li>Playing football on turf with friends</li>
+            <li>Riding motorcycle early in the morning</li>
+            <li>Watching latest movies in theatres</li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-center">
+          <h5 class="mb-3">Skills & Languages</h5>
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+              width="40" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS"
+              width="40" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+              width="40" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
+              width="40" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express"
+              width="40" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"
+              width="40" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"
+              width="40" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="container  pt-5 mt-5">
+    <h2 class=" text-center mb-4">Projects</h2>
+    <div class="row d-flex justify-content-between">
+      <div class="col-md-6 mb-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h5 class="card-title">BookMyResource</h5>
+            <p class="card-text">
+              BookMyResource is an internal platform for booking shared resources like meeting rooms, devices, or labs.
+              It streamlines scheduling with real-time calendars, role-based access, and automated confirmations.
+            </p>
+            <a href="#project1Modal" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#project1Modal">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 mb-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">
+              Weather App is a responsive React-based application that provides real-time weather updates using the
+              Meteorscope API. It displays key data like temperature, humidity, and wind speed for any searched city.
+            </p>
+            <a href="#project2Modal" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#project2Modal">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light text-dark text-center mt-5 pt-5 pb-5">
+    <h2 class="mb-4">Get in Touch</h2>
+
+    <div class="container">
+      <!-- Row 1: Phone and Email -->
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <i class="bi bi-telephone-fill me-2"></i>
+          <a href="tel:+919061580336" class="text-decoration-none text-dark">+91 9061580336</a>
+        </div>
+        <div class="col-md-6">
+          <i class="bi bi-envelope-fill me-2"></i>
+          <a href="mailto:shalbinms88@gmail.com" class="text-decoration-none text-dark">shalbinms88@gmail.com</a>
+        </div>
+      </div>
+
+      <!-- Row 2: Contact Me Button Centered -->
+      <div class="row mb-3">
+        <div class="col-12">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contactModal">
+            Contact Me
+          </button>
+        </div>
+      </div>
+
+      <!-- Row 3: GitHub and LinkedIn -->
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <i class="bi bi-github me-2"></i>
+          <a href="https://github.com/SHALBINMS" target="_blank" class="text-decoration-none text-dark">GitHub</a>
+        </div>
+        <div class="col-md-6">
+          <i class="bi bi-linkedin me-2"></i>
+          <a href="https://www.linkedin.com/in/shalbin-m-s-0342b0255/" target="_blank"
+            class="text-decoration-none text-primary">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title" id="contactModalLabel">Contact Form</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="nameInput" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Abc" />
+            </div>
+            <div class="mb-3">
+              <label for="emailInput" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="abc@example.com" />
+            </div>
+            <div class="mb-3">
+              <label for="messageInput" class="form-label">Message</label>
+              <textarea class="form-control" id="messageInput" rows="3"></textarea>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-success">Send</button>
+              <button type="button" class="btn btn-sm btn-outline-danger ms-auto" data-bs-dismiss="modal">Close</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      &copy; 2025 Shalbin M S. All rights reserved.
+    </div>
+  </footer>
+
+
+
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title" id="contactModalLabel">Contact Form</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="nameInput" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Abc" />
+            </div>
+            <div class="mb-3">
+              <label for="emailInput" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="abc@example.com" />
+            </div>
+            <div class="mb-3">
+              <label for="messageInput" class="form-label">Message</label>
+              <textarea class="form-control" id="messageInput" rows="3"></textarea>
+            </div>
+
+
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-success">Send</button>
+              <button type="button" class="btn btn-sm btn-outline-danger ms-auto" data-bs-dismiss="modal">Close</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 1 Modal -->
+  <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="project1ModalLabel">BookMyResource</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>BookMyResource</strong> is a user-friendly internal tool that helps organizations manage shared
+            resources like meeting rooms, devices, and event spaces. It offers:</p>
+          <ul>
+            <li>Real-time booking calendar</li>
+            <li>Role-based access control</li>
+            <li>Automated email confirmations</li>
+            <li>Responsive UI for desktop and mobile</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-danger ms-auto" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project 2 Modal -->
+  <div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="project2ModalLabel">Weather App</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p><strong>Weather App</strong> is a modern React-based web application that shows real-time weather data
+            using the Meteorscope API. Key features:</p>
+          <ul>
+            <li>Search any city for weather updates</li>
+            <li>Displays temperature, humidity, wind speed, and icons</li>
+            <li>Mobile responsive design</li>
+            <li>Built with React JS, Axios, and Bootstrap 5</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-sm btn-outline-danger ms-auto" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Typed.js Script -->
+  <script>
+    new Typed("#typed-name", {
+      strings: ["Hello, I'm Shalbin"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      startDelay: 500,
+      showCursor: true,
+      cursorChar: "|",
+    });
+
+    new Typed("#typed-role", {
+      strings: ["Web Developer", "Problem Solver", "Full-Stack Learner"],
+      typeSpeed: 90,
+      backSpeed: 60,
+      backDelay: 2000,
+      startDelay: 2000,
+      loop: true,
+      showCursor: true,
+      cursorChar: "|",
+    });
+  </script>
+
+  <!-- Bootstrap Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
