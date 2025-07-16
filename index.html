@@ -13,37 +13,37 @@
 </head>
 
 <body>
-
   <!-- Header -->
   <header class="sticky-top bg-white shadow-sm">
     <nav class="navbar navbar-expand-md navbar-light bg-white">
       <div class="container">
+        <!-- Brand with hover blue effect -->
         <a class="navbar-brand d-flex align-items-center gap-2" href="#home">
-          <i class="bi bi-laptop-fill text-dark" style="transition: color 0.3s;"
-            onmouseover="this.style.color='#0d6efd'" onmouseout="this.style.color=''"></i>
-          <span>SHALBIN M S</span>
+          <i class="bi bi-laptop-fill text-dark"></i>
+          <span class="text-dark link-primary">SHALBIN M S</span>
         </a>
 
-        <!-- Hamburger button -->
+
+        <!-- Hamburger menu for mobile -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
           aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Collapsible Nav Links -->
+        <!-- Navigation links -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link text-dark link-primary" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link text-dark link-primary" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link text-dark link-primary" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link text-dark link-primary" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -53,14 +53,15 @@
 
 
 
+
   <!-- Introduction Section -->
   <section id="home"
     class="bg-dark text-white min-vh-75 d-flex flex-column justify-content-center align-items-center text-center pt-5 pb-5">
     <div class="container">
-      <h1 class="display-1">
+      <h1 class="display-1 pt-5">
         <span id="typed-name" class="text-primary"></span>
       </h1>
-      <p class="lead">
+      <p class="lead pb-5">
         <span id="typed-role" class="text-warning"></span>
       </p>
     </div>
@@ -69,11 +70,12 @@
   <!-- About Section -->
   <section id="about" class="bg-light text-dark py-5 pt-5 mt-5">
     <div class="container">
-      <h2 class="text-center mb-4">About Me</h2>
+      <h2 class="text-center mb-4 pt-3">About Me</h2>
       <div class="row align-items-center">
         <div class="col-md-6">
           <p>
-            I'm <strong>Shalbin M S</strong> from <strong>N. Paravur, Ernakulam, Kerala</strong>. I'm currently pursuing
+            I' m <strong>Shalbin M S</strong> from <strong>N. Paravur, Ernakulam, Kerala</strong>. I'm currently
+            pursuing
             my B.Tech in <strong>Computer Science and Design</strong> at <strong>FISAT, Angamaly</strong>. I’m
             passionate about building full-stack applications and solving real-world problems with code.
           </p>
@@ -108,14 +110,15 @@
 
   <!-- Projects Section -->
   <section id="projects" class="container  pt-5 mt-5">
-    <h2 class=" text-center mb-4">Projects</h2>
+    <h2 class=" text-center mb-4 pt-3">Projects</h2>
     <div class="row d-flex justify-content-between">
       <div class="col-md-6 mb-4">
         <div class="card bg-light text-dark">
           <div class="card-body">
             <h5 class="card-title">BookMyResource</h5>
             <p class="card-text">
-              BookMyResource is an internal platform for booking shared resources like meeting rooms, devices, or labs.
+              BookMyResource is an internal platform for booking shared resources like meeting rooms, devices, or
+              labs.
               It streamlines scheduling with real-time calendars, role-based access, and automated confirmations.
             </p>
             <a href="#project1Modal" class="btn btn-primary" data-bs-toggle="modal"
@@ -130,7 +133,8 @@
             <h5 class="card-title">Weather App</h5>
             <p class="card-text">
               Weather App is a responsive React-based application that provides real-time weather updates using the
-              Meteorscope API. It displays key data like temperature, humidity, and wind speed for any searched city.
+              Meteorscope API. It displays key data like temperature, humidity, and wind speed for any searched
+              city.
             </p>
             <a href="#project2Modal" class="btn btn-primary" data-bs-toggle="modal"
               data-bs-target="#project2Modal">Learn More</a>
